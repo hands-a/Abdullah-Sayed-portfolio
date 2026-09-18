@@ -13,10 +13,10 @@ export const capabilities = [
 // ─── ABOUT STATS — CV-VERIFIED ONLY ──────────────────────────────────────────
 // No invented numbers. Only facts that can be verified from the CV.
 export const stats = [
-  { id: 1, value: '5',    label: 'Projects Built' },
+  { id: 1, value: '5', label: 'Projects Built' },
   { id: 2, value: '2025', label: 'Active Since' },
   { id: 3, value: 'DEPI', label: 'Certified Trainee' },
-  { id: 4, value: 'BSc',  label: 'CS Student' },
+  { id: 4, value: 'BSc', label: 'CS Student' },
 ];
 
 // ─── SOCIAL LINKS ─────────────────────────────────────────────────────────────
@@ -45,7 +45,7 @@ export const socials = [
   {
     id: 4,
     name: 'Download CV',
-    url: '/resume.pdf',
+    url: '/cv.pdf',
     arrow: '↓',
     external: false,
     download: true,
