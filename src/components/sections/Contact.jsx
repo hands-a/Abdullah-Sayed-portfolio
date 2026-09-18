@@ -132,7 +132,7 @@ export default function Contact() {
                 { name: 'GitHub', url: 'https://github.com/hands-a', arrow: '↗', external: true },
                 { name: 'LinkedIn', url: 'https://www.linkedin.com/in/abdullah-sayed-mahmoud-7950a431a/', arrow: '↗', external: true },
                 { name: 'WhatsApp', url: 'https://wa.me/201146557073', arrow: '↗', external: true },
-                { name: 'Download CV', url: '/resume.pdf', arrow: '↓', external: false, download: true },
+                { name: 'Download CV', url: '/resume.pdf', arrow: '↓', external: false, download: 'Abdullah_Sayed_CV.pdf' },
               ].map(({ name, url, arrow, external, download }) => (
                 <a
                   key={name}

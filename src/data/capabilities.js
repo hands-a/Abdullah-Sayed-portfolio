@@ -45,9 +45,9 @@ export const socials = [
   {
     id: 4,
     name: 'Download CV',
-    url: '/cv.pdf',
+    url: '/resume.pdf',
     arrow: '↓',
     external: false,
-    download: true,
+    download: 'Abdullah_Sayed_CV.pdf',
   },
 ];
