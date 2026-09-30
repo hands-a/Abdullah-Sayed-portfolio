@@ -13,6 +13,7 @@ import GrainOverlay from './components/effects/GrainOverlay';
 import Spotlight from './components/effects/Spotlight';
 import ScrollProgress from './components/effects/ScrollProgress';
 import { useMousePosition } from './hooks/useMousePosition';
+import { Analytics } from "@vercel/analytics/react"
 
 // Side-effect component: initialises mouse position CSS vars for spotlight
 function SpotlightInit() {
@@ -46,7 +47,9 @@ export default function App() {
         <Education />
         <Stack />
         <Contact />
+        
       </main>
+      <Analytics />
 
       <Footer />
     </>

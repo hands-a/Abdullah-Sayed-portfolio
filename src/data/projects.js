@@ -67,7 +67,7 @@ export const projects = [
       'Scaffolded with Vite for instant HMR, organized state with Context API for reservation and menu data, and used Tailwind CSS utility classes throughout for consistent, maintainable styling.',
     technologies: ['React.js', 'Vite', 'Tailwind CSS', 'Context API', 'JavaScript ES6+'],
     image: '/images/image.png',
-    url: '#',
+    url: 'https://restaurant-phi-one-22.vercel.app/',
     github: null,
     featured: false,
   },
